@@ -5,6 +5,15 @@
   animation: meals-appear 0.5s ease-out forwards;
 }
 
+.roller {
+  text-align: center;
+}
+
+.error {
+  text-align: center;
+  color: red;
+}
+
 .meals ul {
   list-style: none;
   margin: 0;

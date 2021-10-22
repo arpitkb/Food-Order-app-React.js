@@ -7,11 +7,19 @@ const Backdrop = (props) => {
 };
 
 const ModalOverlay = (props) => {
-  return (
-    <div className={classes.modal}>
-      <div className={classes.content}>{props.children}</div>
-    </div>
-  );
+  if (!props.isSub) {
+    return (
+      <div className={classes.modal}>
+        <div className={classes.content}>{props.children}</div>
+      </div>
+    );
+  } else {
+    return (
+      <div className={classes.modal2}>
+        <div className={classes.content}>{props.children}</div>
+      </div>
+    );
+  }
 };
 
 const overlayElement = document.querySelector("#overlays");
@@ -24,7 +32,7 @@ function Modal(props) {
         overlayElement
       )}
       {ReactDom.createPortal(
-        <ModalOverlay>{props.children}</ModalOverlay>,
+        <ModalOverlay isSub={props.isSub}>{props.children}</ModalOverlay>,
         overlayElement
       )}
     </>

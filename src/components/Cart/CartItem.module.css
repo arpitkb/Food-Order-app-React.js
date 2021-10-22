@@ -4,12 +4,13 @@
   align-items: center;
   border-bottom: 2px solid #8a2b06;
   padding: 1rem 0;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
 }
 
 .cart-item h2 {
   margin: 0 0 0.5rem 0;
   color: #363636;
+  font-size: 1rem;
 }
 
 .summary {
@@ -27,7 +28,7 @@
 .amount {
   font-weight: bold;
   border: 1px solid #ccc;
-  padding: 0.25rem 0.75rem;
+  padding: 0.15rem 0.5rem;
   border-radius: 6px;
   color: #363636;
 }
@@ -46,7 +47,7 @@
 .cart-item button {
   font: inherit;
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: #8a2b06;
   border: 1px solid #8a2b06;
   width: 3rem;
