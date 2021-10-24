@@ -45,7 +45,7 @@ function Cart(props) {
       setIsSubmitting(false);
       setDidSubmit(true);
       cardCtx.clearCart();
-    }, 1000);
+    }, 900);
   };
 
   const cartItems = (
@@ -60,7 +60,6 @@ function Cart(props) {
           onRemove={cardItemRemove.bind(null, item.id)}
         />
       ))}
-      {/* {isCheckingOut && <Checkout />} */}
     </ul>
   );
 
@@ -71,7 +70,7 @@ function Cart(props) {
       </button>
       {hasItems && (
         <button onClick={checkoutHandler} className={classes["button"]}>
-          Order
+          Order and Checkout
         </button>
       )}
     </div>
