@@ -8,7 +8,7 @@ function Header(props) {
       <nav className={`${classes.nav} navbar sticky-top`}>
         <div className="container">
           <h3 className={`${classes.head} navbar-brand mx-auto`}>
-            React meals
+            ReactJS Meals
           </h3>
           <HeaderCardButton onClick={props.showCart}>
             Your Cart
