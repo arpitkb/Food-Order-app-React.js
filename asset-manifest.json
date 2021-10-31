@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Food-Order-app-React.js/static/css/main.69457649.chunk.css",
+    "main.js": "/Food-Order-app-React.js/static/js/main.e4ffb247.chunk.js",
+    "main.js.map": "/Food-Order-app-React.js/static/js/main.e4ffb247.chunk.js.map",
+    "runtime-main.js": "/Food-Order-app-React.js/static/js/runtime-main.bd7efe32.js",
+    "runtime-main.js.map": "/Food-Order-app-React.js/static/js/runtime-main.bd7efe32.js.map",
+    "static/js/2.bb6d8d08.chunk.js": "/Food-Order-app-React.js/static/js/2.bb6d8d08.chunk.js",
+    "static/js/2.bb6d8d08.chunk.js.map": "/Food-Order-app-React.js/static/js/2.bb6d8d08.chunk.js.map",
+    "static/js/3.b94f1c70.chunk.js": "/Food-Order-app-React.js/static/js/3.b94f1c70.chunk.js",
+    "static/js/3.b94f1c70.chunk.js.map": "/Food-Order-app-React.js/static/js/3.b94f1c70.chunk.js.map",
+    "index.html": "/Food-Order-app-React.js/index.html",
+    "static/css/main.69457649.chunk.css.map": "/Food-Order-app-React.js/static/css/main.69457649.chunk.css.map",
+    "static/js/2.bb6d8d08.chunk.js.LICENSE.txt": "/Food-Order-app-React.js/static/js/2.bb6d8d08.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd7efe32.js",
+    "static/js/2.bb6d8d08.chunk.js",
+    "static/css/main.69457649.chunk.css",
+    "static/js/main.e4ffb247.chunk.js"
+  ]
+}
